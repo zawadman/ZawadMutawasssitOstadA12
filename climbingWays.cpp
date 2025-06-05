@@ -10,7 +10,7 @@ int main() {
     cin >> n;
 
     vector<long long> temp(n+1);
-    // Using long long to handle larger Fibonacci numbers if needed
+
     if (n < 0) {
         cout << "Invalid number of steps" << endl;
         return 1; // Exit if the input is invalid
